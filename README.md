@@ -5,16 +5,16 @@
 | **Component**  | **Model**                           |
 | -------------- | ----------------------------------- |
 | CPU            | AMD Ryzen 5 3500x @ 3.6GHz          |
-| Motherboard    | ASUS B450M Steel Legend             |
+| Motherboard    | ASUS B450M Steel Legend  @ 3.90v    |
 | RAM            | 64GB (4 x 16GB) Corsair @ 3200MHz   |
 | Audio Chipset  | Realtek ALC892                      |
 | GPU x 2        | XFX Rx 570 4gb                      |
 | OS Disk (NVMe) | Samsung 512GB                       |
 | WiFi           | AX3000 WiFi 6                       |
 
-**macOS version**: 11.2.3 (20D91)
+**macOS version**: 11.3 (20E232)
 <br>
-**OpenCore version**: 0.6.6
+**OpenCore version**: 0.6.8
 
 ## Drivers 
 
@@ -25,20 +25,23 @@
 - [[Driver] HFSPlus](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi)
 
 ## Kexts
-- [[Kext] NVMeFix @1.0.5](https://github.com/acidanthera/NVMeFix)
-- [[Kext] Lilu @1.5.1](https://github.com/acidanthera/Lilu)
-- [[Kext] VirtualSMC @1.2.1](https://github.com/acidanthera/VirtualSMC)
-- [[Kext] WhateverGreen @1.4.8](https://github.com/acidanthera/WhateverGreen)
-- [[Kext] AppleALC @1.5.8](https://github.com/acidanthera/AppleALC)
+- [[Kext] NVMeFix @1.0.6](https://github.com/acidanthera/NVMeFix)
+- [[Kext] Lilu @1.5.2](https://github.com/acidanthera/Lilu)
+- [[Kext] VirtualSMC @1.2.2](https://github.com/acidanthera/VirtualSMC)
+- [[Kext] WhateverGreen @1.4.9](https://github.com/acidanthera/WhateverGreen)
+- [[Kext] AppleALC @1.5.9](https://github.com/acidanthera/AppleALC)
 - [[Kext] RealtekRTL8111 @2.4.0](https://github.com/Mieze/RTL8111_driver_for_OS_X/releases)
-- [[Kext] AirportItlwm @1.2.0](https://github.com/OpenIntelWireless/itlwm)
+- [[Kext] AirportItlwm @1.3.0](https://github.com/OpenIntelWireless/itlwm)
+- [[Kext] IntelBluetoothFirmware @1.1.2](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
+- [[Kext] AMDRyzenCPUPowerManagement @0.6.6](https://github.com/trulyspinach/SMCAMDProcessor)
 
 
 ## Not working
 
 - Hypervisor.framework (VirtualBox and XCode iOS emulator works)
 - Microphone 
-- Bluetooth (fix asap)
+- Bluetooth (fix asap by fix USBs) 
+- Some USBs
 
 ## How to use
 
