@@ -12,9 +12,9 @@
 | OS Disk (NVMe) | Samsung 512GB                       |
 | WiFi           | AX3000 WiFi 6                       |
 
-**macOS version**: 11.3 (20E232)
+**macOS version**: 11.5.1 (20G80)
 <br>
-**OpenCore version**: 0.6.8
+**OpenCore version**: 0.7.2
 
 ## Drivers 
 
@@ -25,15 +25,15 @@
 - [[Driver] HFSPlus](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi)
 
 ## Kexts
-- [[Kext] NVMeFix @1.0.6](https://github.com/acidanthera/NVMeFix)
-- [[Kext] Lilu @1.5.2](https://github.com/acidanthera/Lilu)
-- [[Kext] VirtualSMC @1.2.2](https://github.com/acidanthera/VirtualSMC)
-- [[Kext] WhateverGreen @1.4.9](https://github.com/acidanthera/WhateverGreen)
-- [[Kext] AppleALC @1.5.9](https://github.com/acidanthera/AppleALC)
-- [[Kext] RealtekRTL8111 @2.4.0](https://github.com/Mieze/RTL8111_driver_for_OS_X/releases)
+- [[Kext] NVMeFix @1.0.9](https://github.com/acidanthera/NVMeFix)
+- [[Kext] Lilu @1.5.5](https://github.com/acidanthera/Lilu)
+- [[Kext] VirtualSMC @1.2.6](https://github.com/acidanthera/VirtualSMC)
+- [[Kext] WhateverGreen @1.5.2](https://github.com/acidanthera/WhateverGreen)
+- [[Kext] AppleALC @1.6.3](https://github.com/acidanthera/AppleALC)
+- [[Kext] RealtekRTL8111 @2.4.2](https://github.com/Mieze/RTL8111_driver_for_OS_X/releases)
 - [[Kext] AirportItlwm @1.3.0](https://github.com/OpenIntelWireless/itlwm)
-- [[Kext] IntelBluetoothFirmware @1.1.2](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
-- [[Kext] AMDRyzenCPUPowerManagement @0.6.6](https://github.com/trulyspinach/SMCAMDProcessor)
+- [[Kext] IntelBluetoothFirmware @1.1.3](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
+- [[Kext] AMDRyzenCPUPowerManagement @0.7](https://github.com/trulyspinach/SMCAMDProcessor)
 
 
 ## Not working
